@@ -5,7 +5,7 @@ Default keybindings fix for Mac OS X
 ## Features
 
 * Adds multiple sign shortcut: ×
-	* `option - [`  = `×`
+	* `option - *`  = `×`
 * Modifies curly quotes shortcuts:
 	* `control - [` = `“`
 	* `control - ]` = `”`
