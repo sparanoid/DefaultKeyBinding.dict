@@ -5,7 +5,7 @@ Default keybindings fix for Mac OS X
 ## Features
 
 * Adds multiple sign shortcut: ×
-	* `option - [`  = ×
+	* `option - [`  = `×`
 * Modifies curly quotes shortcuts:
 	* `control - [` = `“`
 	* `control - ]` = `”`
@@ -22,22 +22,22 @@ Default keybindings fix for Mac OS X
 ### Method #1
 
 ```bash
-user$ git clone git://github.com/sparanoid/DefaultKeyBinding.dict.git ~/Library/Keybindings/
-````
-
-### Method #3
-
-```bash
 user$ git clone git://github.com/sparanoid/DefaultKeyBinding.dict.git ~/my-git-repos/DefaultKeyBinding.dict
 user$ ln -s ~/my-git-repos/DefaultKeyBinding.dict/DefaultKeyBinding.dict ~/Library/Keybindings/DefaultKeyBinding.dict
 ```
 
 ### Method #2
+
+```bash
+user$ git clone git://github.com/sparanoid/DefaultKeyBinding.dict.git ~/Library/Keybindings/
+````
+
+### Method #3
 Download it and put DefaultKeyBinding file in:
 
-	`~/Library/KeyBindings/`
+	~/Library/KeyBindings/
 
-## Usage
+## Syntax
 
 `"[keycombination]" = ("insertText:", "&#092;[unicodenumber or actual character]");`
 
