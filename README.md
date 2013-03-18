@@ -9,7 +9,7 @@ Default keybindings fix for Mac OS X
 * Modifies curly quotes shortcuts:
 	* `control - [` = `“`
 	* `control - ]` = `”`
-*	`control - {` = `‘`
+	* `control - {` = `‘`
 	* `control - }` = `’`
 * Adds Chinese quote marks shortcuts
 	* `option - [` = `「`
