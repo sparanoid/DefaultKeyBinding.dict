@@ -1,0 +1,58 @@
+/*
+  Default keybindings fix for Mac OS X
+  by Tunghsiao Liu t@sparanoid.com
+
+  Features:
+  * Adds multiple sign shortcut: ×
+    option - [  = ×
+  * Modifies curly quotes shortcuts:
+    control - [ = “
+    control - ] = ”
+    control - { = ‘
+    control - } = ’
+  * Adds Chinese quote marks shortcuts
+    option - [ = 「
+    option - ] = 」
+    option - { = 『
+    option - } = 』
+
+  Installaion:
+  user$ git clone https://gist.github.com/5182071.git ~/Library/Keybindings/
+
+  Or download it and put DefaultKeyBinding file in:
+  ~/Library/KeyBindings/
+
+  Usage:
+  "[keycombination]" = ("insertText:", "&#092;[unicodenumber or actual character]");
+
+  Prefix   Meaning
+  ~        ⌥ option key
+  $        ⇧ shift key
+  ^        ^ control key
+  @        ⌘ command key
+  #        Keys on number pad
+
+  More information about keybinding syntax:
+  http://xahlee.info/kbd/osx_keybinding_key_syntax.html
+
+
+  Not familiar with codeing or need more complex keybinding modifications? Try this:
+  http://scripts.sil.org/ukelele
+*/
+
+{
+  // Multiple sign fix
+  "~*" = ("insertText:", "×");
+
+  // Curly quotes fix
+  "^[" = ("insertText:", "“");
+  "^]" = ("insertText:", "”");
+  "^{" = ("insertText:", "‘");
+  "^}" = ("insertText:", "’");
+
+  // Chinese quote marks fix
+  "~[" = ("insertText:", "「");
+  "~]" = ("insertText:", "」");
+  "~{" = ("insertText:", "『");
+  "~}" = ("insertText:", "』");
+}
