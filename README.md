@@ -11,7 +11,7 @@ Default keybindings fix for Mac OS X
 	* `control - ]` = `”`
 	* `control - {` = `‘`
 	* `control - }` = `’`
-* Adds Chinese quote marks shortcuts
+* Adds Chinese quotation marks shortcuts
 	* `option - [` = `「`
 	* `option - ]` = `」`
 	* `option - {` = `『`
