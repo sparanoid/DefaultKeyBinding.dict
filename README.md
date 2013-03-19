@@ -19,20 +19,16 @@ Default keybindings fix for Mac OS X
 
 ## Installation
 
+Don’t symlink this file to `Keybindings` folder, it [doens’t work](http://apple.stackexchange.com/questions/53066/textedit-key-bindings-in-lion).
+
 ### Method #1
 
 ```bash
 user$ git clone git://github.com/sparanoid/DefaultKeyBinding.dict.git ~/my-git-repos/DefaultKeyBinding.dict
-user$ ln -s ~/my-git-repos/DefaultKeyBinding.dict/DefaultKeyBinding.dict ~/Library/Keybindings/DefaultKeyBinding.dict
+user$ cp ~/my-git-repos/DefaultKeyBinding.dict/DefaultKeyBinding.dict ~/Library/Keybindings/DefaultKeyBinding.dict
 ```
 
 ### Method #2
-
-```bash
-user$ git clone git://github.com/sparanoid/DefaultKeyBinding.dict.git ~/Library/Keybindings/
-````
-
-### Method #3
 Download it and put DefaultKeyBinding file in:
 
 	~/Library/KeyBindings/
