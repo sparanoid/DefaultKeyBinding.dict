@@ -17,7 +17,7 @@ Default keybindings fix for Mac OS X
 	* `option - {` = `『`
 	* `option - }` = `』`
 
-## Installaion
+## Installation
 
 ### Method #1
 
@@ -52,7 +52,7 @@ More information about keybinding syntax:
 http://xahlee.info/kbd/osx_keybinding_key_syntax.html
 
 
-Not familiar with codeing or need more complex keybinding modifications? Try this:
+Not familiar with coding or need more complex keybinding modifications? Try this:
 http://scripts.sil.org/ukelele
 
 ## Author
