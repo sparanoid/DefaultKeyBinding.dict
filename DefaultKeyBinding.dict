@@ -13,7 +13,7 @@
   "^{" = ("insertText:", "‘");
   "^}" = ("insertText:", "’");
 
-  // Chinese quote marks fix
+  // Chinese quotation marks fix
   "~[" = ("insertText:", "「");
   "~]" = ("insertText:", "」");
   "~{" = ("insertText:", "『");
