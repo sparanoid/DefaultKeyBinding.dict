@@ -7,6 +7,9 @@
   // Multiple sign fix
   "^*" = ("insertText:", "×");
 
+  // Ideographic space fix
+  "^$ " = ("insertText:", "　");
+
   // Curly quotes fix
   "^[" = ("insertText:", "“");
   "^]" = ("insertText:", "”");
