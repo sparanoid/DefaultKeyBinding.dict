@@ -4,14 +4,16 @@ Default keybindings fix for Mac OS X
 
 ## Features
 
-* Adds multiple sign shortcut:
-	* `option - *`  = `×`
-* Modifies curly quotes shortcuts:
+* Adds multiple sign shortkey:
+	* `control - shift - 8`  = `×`
+* Adds deographic space shortkey:
+	* `control - shift - space`  = `　`
+* Modifies curly quotes shortkeys:
 	* `control - [` = `“`
 	* `control - ]` = `”`
 	* `control - {` = `‘`
 	* `control - }` = `’`
-* Adds Chinese quotation marks shortcuts:
+* Adds Chinese quotation marks shortkeys:
 	* `option - [` = `「`
 	* `option - ]` = `」`
 	* `option - {` = `『`
