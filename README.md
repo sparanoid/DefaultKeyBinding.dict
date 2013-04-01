@@ -53,6 +53,10 @@ http://xahlee.info/kbd/osx_keybinding_key_syntax.html
 Not familiar with coding or need more complex keybinding modifications? Try this:
 http://scripts.sil.org/ukelele
 
+## Known Issues
+
+* Ideographic space fix doens’t work when Google Chrome is running. (Tested on Mac OS X 10.8.3)
+
 ## Author
 
 **Tunghsiao Liu**
