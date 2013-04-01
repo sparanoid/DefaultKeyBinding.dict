@@ -8,7 +8,7 @@
   "^*" = ("insertText:", "×");
 
   // Ideographic space fix
-  "^$ " = ("insertText:", "　");
+  "^$\U0020" = ("insertText:", "　");
 
   // Curly quotes fix
   "^[" = ("insertText:", "“");
